@@ -132,7 +132,7 @@ const eyeColor = {
   yellow: [],
   brown: [],
   red: [],
-  blueGray: [],
+  'blue-gray': [],
 };
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
@@ -153,7 +153,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       eyeColor.red.push(starWarsCharacters[i]);
       break;
     case "blue-gray":
-      eyeColor.blueGray.push(starWarsCharacters[i]);
+      eyeColor.['blue-gray'].push(starWarsCharacters[i]);
       break;
   }
 }
